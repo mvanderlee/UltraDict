@@ -38,6 +38,8 @@ jobs:
           #   os: macos-14
           # - name: "macos-15"
           #   os: macos-15
+          - name: "macos-26"
+            os: macos-26
 
           - name: "linux-i386"
             os: ubuntu-24.04
