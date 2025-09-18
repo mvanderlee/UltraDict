@@ -31,15 +31,22 @@ jobs:
           #   os: windows-11-arm
           #   arch: aarch64
 
-          - name: "macos-13"
-            os: macos-13
+          # - name: "macos-13"
+          #   os: macos-13
           # atomics doesn't support this - needs more work to figure out
           # - name: "macos-14"
           #   os: macos-14
           # - name: "macos-15"
           #   os: macos-15
-          - name: "macos-26"
-            os: macos-26
+          - name: "macos-x84_64"
+            os: macos-latest
+            arch: x86_64
+          - name: "macos-arm64"
+            os: macos-latest
+            arch: arm64
+          - name: "macos-universal2"
+            os: macos-latest
+            arch: universal2
 
           - name: "linux-i386"
             os: ubuntu-24.04
